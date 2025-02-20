@@ -5,8 +5,8 @@
     align-items: center;
     justify-content: space-between;
     padding: 5px;
-    background-color: #46b34ca6;
-    color: white;
+    background-color: #949b94a6;
+    height:70px;
 }
 
 .navbar-logo img {
@@ -25,10 +25,10 @@
 
 .nav-item {
     text-decoration: none;
-    color: white;
+    color: rgb(8, 8, 8);
     font-weight: 500;
 }
 
 .nav-item:hover {
-    color: #490707; /* Tomato color for hover effect */
+    color: #13ad0d; /* Tomato color for hover effect */
 }

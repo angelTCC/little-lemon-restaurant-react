@@ -11,7 +11,6 @@ import Reservation from './components/Reservation';
 import { Route, Routes, Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
 function App() {
   return (
     <div className="App">
@@ -35,6 +34,10 @@ function App() {
         <Route path="/reservation" element={<Reservation />} />
       </Routes>
 
+      <footer style={{ backgroundColor: "grey", color: "white", textAlign: "center", padding: "10px", marginTop: "20px" }}>
+        &copy; {new Date().getFullYear()} My Website
+      </footer>
+      
     </div>
   );
 }
