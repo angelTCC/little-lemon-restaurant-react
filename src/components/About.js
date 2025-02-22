@@ -4,7 +4,7 @@ function About() {
     <Container>
         <Row className="border">
             <Col>
-                <h1>Little Lemon</h1>
+                <h1 style={{textAlign:"left"}}>Little Lemon</h1>
                 <p style={{textAlign:"left"}}>History</p>
             </Col>
             <Col>
